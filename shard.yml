@@ -1,0 +1,17 @@
+name: kemal
+version: 0.1.0
+
+authors:
+  - leandrorezendecoutinho <leandro.rc.contato@gmail.com>
+
+targets:
+  kemal:
+    main: src/kemal.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+crystal: 0.34.0
+
+license: MIT
